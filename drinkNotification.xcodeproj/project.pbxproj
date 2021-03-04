@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183A731025D50C1900C5C06A /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A730F25D50C1900C5C06A /* homeViewController.swift */; };
+		183A731225D50CC200C5C06A /* homeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A731125D50CC200C5C06A /* homeTableViewCell.swift */; };
+		18407B2525EE1D9E008317C8 /* collegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18407B2425EE1D9E008317C8 /* collegeViewController.swift */; };
+		1895EFD625E38163005DE6A3 /* usersHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895EFD525E38163005DE6A3 /* usersHomeViewController.swift */; };
+		1895EFD825E38196005DE6A3 /* usersHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895EFD725E38196005DE6A3 /* usersHomeTableViewCell.swift */; };
+		1895EFDB25E38875005DE6A3 /* userDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895EFDA25E38875005DE6A3 /* userDetailTableViewController.swift */; };
+		18AAB51F25DA4FEA003FE9F9 /* users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAB51E25DA4FEA003FE9F9 /* users.swift */; };
+		18AAB52225DA85C7003FE9F9 /* favouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAB52125DA85C7003FE9F9 /* favouriteViewController.swift */; };
+		18AAB52425DA8640003FE9F9 /* favouriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAB52325DA8640003FE9F9 /* favouriteTableViewCell.swift */; };
+		18EC34C925DD17F400526CD3 /* DataBaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC34C825DD17F400526CD3 /* DataBaseHelper.swift */; };
+		18EE0E2725DFC34A00F3ABF4 /* detailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE0E2625DFC34A00F3ABF4 /* detailTableViewController.swift */; };
 		18F5E99D25D2549800E99778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F5E99C25D2549800E99778 /* AppDelegate.swift */; };
 		18F5E99F25D2549800E99778 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F5E99E25D2549800E99778 /* SceneDelegate.swift */; };
-		18F5E9A125D2549800E99778 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F5E9A025D2549800E99778 /* ViewController.swift */; };
 		18F5E9A425D2549800E99778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F5E9A225D2549800E99778 /* Main.storyboard */; };
 		18F5E9A725D2549800E99778 /* drinkNotification.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18F5E9A525D2549800E99778 /* drinkNotification.xcdatamodeld */; };
 		18F5E9A925D2549A00E99778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F5E9A825D2549A00E99778 /* Assets.xcassets */; };
 		18F5E9AC25D2549A00E99778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F5E9AA25D2549A00E99778 /* LaunchScreen.storyboard */; };
 		18F5E9B725D2549B00E99778 /* drinkNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F5E9B625D2549B00E99778 /* drinkNotificationTests.swift */; };
 		18F5E9C225D2549B00E99778 /* drinkNotificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F5E9C125D2549B00E99778 /* drinkNotificationUITests.swift */; };
+		18F5E9D325D262BB00E99778 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F5E9D225D262BB00E99778 /* loginViewController.swift */; };
+		18F5E9D525D262F300E99778 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F5E9D425D262F300E99778 /* registerViewController.swift */; };
+		18F5E9D725D263C100E99778 /* logRegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F5E9D625D263C100E99778 /* logRegViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +49,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		183A730F25D50C1900C5C06A /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		183A731125D50CC200C5C06A /* homeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeTableViewCell.swift; sourceTree = "<group>"; };
+		18407B2425EE1D9E008317C8 /* collegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collegeViewController.swift; sourceTree = "<group>"; };
+		1895EFD525E38163005DE6A3 /* usersHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usersHomeViewController.swift; sourceTree = "<group>"; };
+		1895EFD725E38196005DE6A3 /* usersHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usersHomeTableViewCell.swift; sourceTree = "<group>"; };
+		1895EFDA25E38875005DE6A3 /* userDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userDetailTableViewController.swift; sourceTree = "<group>"; };
+		18AAB51E25DA4FEA003FE9F9 /* users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = users.swift; sourceTree = "<group>"; };
+		18AAB52125DA85C7003FE9F9 /* favouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favouriteViewController.swift; sourceTree = "<group>"; };
+		18AAB52325DA8640003FE9F9 /* favouriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favouriteTableViewCell.swift; sourceTree = "<group>"; };
+		18EC34C825DD17F400526CD3 /* DataBaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseHelper.swift; sourceTree = "<group>"; };
+		18EE0E2625DFC34A00F3ABF4 /* detailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailTableViewController.swift; sourceTree = "<group>"; };
 		18F5E99925D2549800E99778 /* drinkNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drinkNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F5E99C25D2549800E99778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18F5E99E25D2549800E99778 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18F5E9A025D2549800E99778 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18F5E9A325D2549800E99778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18F5E9A625D2549800E99778 /* drinkNotification.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = drinkNotification.xcdatamodel; sourceTree = "<group>"; };
 		18F5E9A825D2549A00E99778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +74,9 @@
 		18F5E9BD25D2549B00E99778 /* drinkNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drinkNotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F5E9C125D2549B00E99778 /* drinkNotificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinkNotificationUITests.swift; sourceTree = "<group>"; };
 		18F5E9C325D2549B00E99778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F5E9D225D262BB00E99778 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		18F5E9D425D262F300E99778 /* registerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
+		18F5E9D625D263C100E99778 /* logRegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logRegViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +104,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		183A730E25D50BF800C5C06A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				183A730F25D50C1900C5C06A /* homeViewController.swift */,
+				183A731125D50CC200C5C06A /* homeTableViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		18407B2325EE1D62008317C8 /* college */ = {
+			isa = PBXGroup;
+			children = (
+				18407B2425EE1D9E008317C8 /* collegeViewController.swift */,
+			);
+			path = college;
+			sourceTree = "<group>";
+		};
+		1895EFD425E3811A005DE6A3 /* usersHome */ = {
+			isa = PBXGroup;
+			children = (
+				1895EFD525E38163005DE6A3 /* usersHomeViewController.swift */,
+				1895EFD725E38196005DE6A3 /* usersHomeTableViewCell.swift */,
+			);
+			path = usersHome;
+			sourceTree = "<group>";
+		};
+		1895EFD925E38782005DE6A3 /* usersDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1895EFDA25E38875005DE6A3 /* userDetailTableViewController.swift */,
+			);
+			path = usersDetail;
+			sourceTree = "<group>";
+		};
+		18AAB52025DA8568003FE9F9 /* favourite juice */ = {
+			isa = PBXGroup;
+			children = (
+				18AAB52125DA85C7003FE9F9 /* favouriteViewController.swift */,
+				18AAB52325DA8640003FE9F9 /* favouriteTableViewCell.swift */,
+			);
+			path = "favourite juice";
+			sourceTree = "<group>";
+		};
+		18EC34C725DD17BB00526CD3 /* DataBaseHelper */ = {
+			isa = PBXGroup;
+			children = (
+				18EC34C825DD17F400526CD3 /* DataBaseHelper.swift */,
+			);
+			path = DataBaseHelper;
+			sourceTree = "<group>";
+		};
+		18EE0E2325DFC2C300F3ABF4 /* detailView */ = {
+			isa = PBXGroup;
+			children = (
+				18EE0E2625DFC34A00F3ABF4 /* detailTableViewController.swift */,
+			);
+			path = detailView;
+			sourceTree = "<group>";
+		};
 		18F5E99025D2549800E99778 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +186,13 @@
 		18F5E99B25D2549800E99778 /* drinkNotification */ = {
 			isa = PBXGroup;
 			children = (
+				18EC34C725DD17BB00526CD3 /* DataBaseHelper */,
 				18F5E99C25D2549800E99778 /* AppDelegate.swift */,
 				18F5E99E25D2549800E99778 /* SceneDelegate.swift */,
-				18F5E9A025D2549800E99778 /* ViewController.swift */,
 				18F5E9A225D2549800E99778 /* Main.storyboard */,
+				18F5E9CF25D2623100E99778 /* Model */,
+				18F5E9D025D2624900E99778 /* View */,
+				18F5E9D125D2626000E99778 /* View-Model */,
 				18F5E9A825D2549A00E99778 /* Assets.xcassets */,
 				18F5E9AA25D2549A00E99778 /* LaunchScreen.storyboard */,
 				18F5E9AD25D2549A00E99778 /* Info.plist */,
@@ -129,6 +217,37 @@
 				18F5E9C325D2549B00E99778 /* Info.plist */,
 			);
 			path = drinkNotificationUITests;
+			sourceTree = "<group>";
+		};
+		18F5E9CF25D2623100E99778 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18AAB51E25DA4FEA003FE9F9 /* users.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18F5E9D025D2624900E99778 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18407B2325EE1D62008317C8 /* college */,
+				1895EFD925E38782005DE6A3 /* usersDetail */,
+				1895EFD425E3811A005DE6A3 /* usersHome */,
+				18EE0E2325DFC2C300F3ABF4 /* detailView */,
+				183A730E25D50BF800C5C06A /* Home */,
+				18AAB52025DA8568003FE9F9 /* favourite juice */,
+				18F5E9D225D262BB00E99778 /* loginViewController.swift */,
+				18F5E9D425D262F300E99778 /* registerViewController.swift */,
+				18F5E9D625D263C100E99778 /* logRegViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18F5E9D125D2626000E99778 /* View-Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View-Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,10 +381,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F5E9A125D2549800E99778 /* ViewController.swift in Sources */,
+				1895EFD625E38163005DE6A3 /* usersHomeViewController.swift in Sources */,
+				18AAB52225DA85C7003FE9F9 /* favouriteViewController.swift in Sources */,
+				183A731025D50C1900C5C06A /* homeViewController.swift in Sources */,
+				18AAB51F25DA4FEA003FE9F9 /* users.swift in Sources */,
+				18AAB52425DA8640003FE9F9 /* favouriteTableViewCell.swift in Sources */,
+				18EC34C925DD17F400526CD3 /* DataBaseHelper.swift in Sources */,
+				18F5E9D325D262BB00E99778 /* loginViewController.swift in Sources */,
 				18F5E9A725D2549800E99778 /* drinkNotification.xcdatamodeld in Sources */,
+				18F5E9D725D263C100E99778 /* logRegViewController.swift in Sources */,
 				18F5E99D25D2549800E99778 /* AppDelegate.swift in Sources */,
+				18EE0E2725DFC34A00F3ABF4 /* detailTableViewController.swift in Sources */,
+				18F5E9D525D262F300E99778 /* registerViewController.swift in Sources */,
+				18407B2525EE1D9E008317C8 /* collegeViewController.swift in Sources */,
+				183A731225D50CC200C5C06A /* homeTableViewCell.swift in Sources */,
 				18F5E99F25D2549800E99778 /* SceneDelegate.swift in Sources */,
+				1895EFD825E38196005DE6A3 /* usersHomeTableViewCell.swift in Sources */,
+				1895EFDB25E38875005DE6A3 /* userDetailTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
